@@ -8,10 +8,18 @@ adl helps generate markdown files for capturing information in an ADR and genera
 
 ## How to use
 
-Install adl with Go.
+Install adl with Go...
 
 ```sh
-go install "github.com/vseipelt/adl@latest"
+go install github.com/vseipelt/adl@latest
+```
+
+or build it from source yourself.
+
+```sh
+git clone git@github.com:vseipelt/adl.git
+cd adl
+go build
 ```
 
 As of now, `adl` ships with two commands.
