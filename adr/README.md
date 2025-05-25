@@ -4,7 +4,7 @@ This directory captures architecture decision records for this project.
 An architecture decision record is a justified software design choice 
 that addresses a functional or non-functional requirement of architectural significance.
 
-This directory and README is managed by [adl](https://github.com/bradcypert/adl). Please use \`adl create\` to create a new ADR.
+This directory and README is managed by [adl](https://github.com/vseipelt/adl). Please use \`adl create\` to create a new ADR.
 If you need to regenerate this readme without creating a new ADR, please use \`adl regen\`.
 
 ## Contents 
@@ -14,4 +14,4 @@ If you need to regenerate this readme without creating a new ADR, please use \`a
  - [00002-Migrate-to-Zig.md](./00002-Migrate-to-Zig.md)
  - [00003-Support-Templates-Folder.md](./00003-Support-Templates-Folder.md)
 
-Last generated Fri, 23 May 2025 18:56:25 UTC
+Last generated Sun, 25 May 2025 17:03:55 UTC

@@ -1,29 +1,17 @@
 # ADL
 
+Go port of [Brad Cypert's adl](https://github.com/bradcypert/adl) tool because I enjoy seeing how the same problem is solved in different languages. Inspired [Brad Cypert's Video](https://www.youtube.com/watch?v=JXWvWhfWrUU) about [panzi's rust port of adl](https://github.com/panzi/adl).
+
 adl (pronounce "Addle") is a tool for managing ADRs (architecture decision records) in a directory (ideally inside of a repo).
 
 adl helps generate markdown files for capturing information in an ADR and generates a README in your `adr` directory to help catalogue everything. The README also provides information on how to use `adl` to manage your `adr`s.
 
 ## How to use
 
-Install adl and add it to your path. **Do not run copy/paste this script. Read it, and run only the parts that you need.**
+Install adl with Go.
 
-```bash
-# Use the appropriate binary for your OS and Arch
-binary="adl_linux_arm"    # linux arm
-binary="adl_linux_x86"    # linux x86
-binary="adl_mac_arm"      # mac arm 
-binary="adl_mac_x86"      # mac x86
-binary="adl_windows_x86"  # windows
-
-# curl, follow redirects, output to "adl", download target latest release
-curl -L -o adl https://github.com/bradcypert/adl/releases/latest/download/$binary
-
-# You _may_ need to update permissions for adl
-chmod 744 adl
-
-# You probably also want to move this to a place that exists in your path
-mv adl /usr/local/bin
+```sh
+go install "github.com/vseipelt/adl@latest"
 ```
 
 As of now, `adl` ships with two commands.
